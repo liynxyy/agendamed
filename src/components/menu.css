@@ -1,0 +1,25 @@
+.menu {
+  background-color: #2c5c97;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+ 
+.menu h2 {
+  color: white;
+  margin: 0;
+}
+ 
+.links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+ 
+.links a:hover {
+  text-decoration: underline;
+}
