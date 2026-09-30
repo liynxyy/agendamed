@@ -1,4 +1,4 @@
-import Menu from '../components/Menu';
+import Menu from "../../components/Menu";
  
 export default function Agendamentos() {
   return (
@@ -10,16 +10,18 @@ export default function Agendamentos() {
         <div className="lista-agendamentos">
           <div className="card">
             <h4>Consulta com Clínico Geral</h4>
-            <p>Data: 15/07/2026</p>
-            <p>Horário: 09:00</p>
-            <p>Local: Consultório 3</p>
+            <p>Dr. Fernando Santos</p>
+            <p>Data: 2026-10-11</p>
+            <p>Horário: 14:00</p>
+            <p>Local: Consultório 1</p>
           </div>
  
           <div className="card">
-            <h4>Retorno - Cardiologia</h4>
-            <p>Data: 22/07/2026</p>
-            <p>Horário: 14:30</p>
-            <p>Local: Consultório 7</p>
+            <h4>Odontologia</h4>
+            <p>Data: Bruna Alves</p>
+            <p>Data: 2026-12-01</p>
+            <p>Horário: 09:30</p>
+            <p>Local: Consultório 2</p>
           </div>
         </div>
       </main>
