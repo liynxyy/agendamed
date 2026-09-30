@@ -1,4 +1,4 @@
-import Menu from "../../components/menu";
+import Menu from "../../components/Menu";
  
 export default function Recepcionista() {
   return (
@@ -22,6 +22,11 @@ export default function Recepcionista() {
           <p><strong>Médico:</strong> Dra. Bruna Dante</p>
           <p><strong>Data:</strong> 2026-12-01</p>
           <p><strong>Horário:</strong> 09:30</p>
+        </div>
+        <div className="Botoes">
+        <button>Agendar Consulta</button>
+        <button> Remarcar</button>
+        <button>Cancelar</button>
         </div>
       </main>
     </div>

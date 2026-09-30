@@ -1,4 +1,4 @@
-import Menu from "../../components/menu";
+import Menu from "../../components/Menu";
  
 export default function Medico() {
   return (
@@ -20,6 +20,10 @@ export default function Medico() {
           <p><strong>Paciente:</strong> Jose nunes</p>
           <p><strong>Horário:</strong> 09:30</p>
           <p><strong>Tipo:</strong> Odontologia</p>
+        </div>
+        <div className="Botoes">
+        <button> Ver Consultas</button>
+        <button>Finalizar Atendimento</button>
         </div>
       </main>
     </div>

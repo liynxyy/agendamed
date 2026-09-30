@@ -1,4 +1,4 @@
-import Menu from "../../components/menu";
+import Menu from "../../components/Menu";
  
 export default function Paciente() {
   return (
@@ -22,6 +22,10 @@ export default function Paciente() {
           <p><strong>Data:</strong> 2026-12-01</p>
           <p><strong>Horário:</strong> 09:30</p>
           <p><strong>Local:</strong> Consultório 2</p>
+        </div>
+        <div className="Botoes">
+        <button> Agendar Consulta</button>
+        <button> Cancelar Consulta</button>
         </div>
       </main>
     </div>

@@ -1,0 +1,12 @@
+.botoes {
+  margin-top: 20px;
+}
+ 
+button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #6c63ff;
+  color: white;
+}
