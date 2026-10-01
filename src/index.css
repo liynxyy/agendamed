@@ -1,48 +1,37 @@
-* {
+body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
 }
  
-.conteudo {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
+.container {
+  padding: 20px;
+  text-align: center;
 }
  
-.conteudo h1 {
-  color: #2c5c97;
-  margin-bottom: 1.5rem;
+h1 {
+  color: #2c3e50;
 }
  
-.conteudo p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 2rem;
-  color: #333;
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
 }
  
-.info ul {
-  margin-left: 1.5rem;
-  line-height: 1.8;
-  color: #333;
-}
- 
-.lista-agendamentos {
-  display: grid;
-  gap: 1.2rem;
-  margin-top: 2rem;
+button:hover {
+  background-color: #2980b9;
 }
  
 .card {
-  padding: 1.2rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
- 
-.card h4 {
-  color: #2c5c97;
-  margin-bottom: 0.8rem;
+  background: white;
+  padding: 15px;
+  margin: 10px auto;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
 }

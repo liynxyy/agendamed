@@ -1,4 +1,5 @@
 import Menu from "../../components/Menu";
+import "./style.css";
  
 export default function Medico() {
   return (
@@ -7,6 +8,10 @@ export default function Medico() {
  
       <main className="container">
         <h1>Área do Médico</h1>
+
+        <button onClick={() => alert("Consulta finalizada")}>
+  Finalizar Consulta
+</button>
  
         <h2>Consultas do Dia</h2>
  

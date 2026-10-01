@@ -1,4 +1,5 @@
 import Menu from "../../components/Menu";
+import "./style.css";
  
 export default function Recepcionista() {
   return (
@@ -7,6 +8,10 @@ export default function Recepcionista() {
  
       <main className="container">
         <h1>Área da Recepcionista</h1>
+
+        <button onClick={() => alert("Consulta criada")}>
+  Nova Consulta
+</button>
  
         <h2>Gerenciar Agendamentos</h2>
  

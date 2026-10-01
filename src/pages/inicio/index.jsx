@@ -1,4 +1,5 @@
 import Menu from "../../components/Menu";
+import "./style.css";
  
 export default function Inicio() {
   return (
