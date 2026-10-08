@@ -47,7 +47,10 @@ export default function Recepcionista() {
   Ver Pacientes
 </button>
 
-        <button> Remarcar</button>
+        <button onClick={() => navigate("/consultas")}>
+  Remarcar
+</button>
+
         <button>Cancelar</button>
         </div>
       </main>
