@@ -1,5 +1,5 @@
 import Menu from "../../components/Menu"
-import "./style.css"
+import "./agendamentos.css"
  
 export default function Agendamentos() {
   return (

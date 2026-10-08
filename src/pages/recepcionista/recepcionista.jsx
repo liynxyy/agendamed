@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import Menu from "../../components/Menu";
-import "./style.css";
+import "./recepcionista.css";
  
 export default function Recepcionista() {
+  const navigate = useNavigate();
   return (
     <div>
       <Menu />
@@ -29,7 +31,22 @@ export default function Recepcionista() {
           <p><strong>Horário:</strong> 09:30</p>
         </div>
         <div className="Botoes">
-        <button>Agendar Consulta</button>
+
+          <button onClick={() => navigate("/medicos")}>
+  Ver Médicos
+</button>
+       <button onClick={() => navigate("/agendar-consulta")}>
+  Agendar Consulta
+</button>
+
+<button onClick={() => navigate("/consultas")}>
+    Consultas
+  </button>
+  
+  <button onClick={() => navigate("/pacientes")}>
+  Ver Pacientes
+</button>
+
         <button> Remarcar</button>
         <button>Cancelar</button>
         </div>

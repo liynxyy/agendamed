@@ -1,0 +1,118 @@
+.consultas-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+ 
+.consultas-container h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+ 
+.consultas-container > p {
+  color: #666;
+  margin-bottom: 35px;
+}
+ 
+/* ÁREA SEM CONSULTAS */
+ 
+.sem-consultas {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+ 
+.sem-consultas p {
+  color: #777;
+  font-size: 16px;
+}
+ 
+ 
+/* CARD DA CONSULTA */
+ 
+.consulta-card {
+  background: white;
+  padding: 25px 30px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+ 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+ 
+  border-left: 5px solid #6c4ab6;
+}
+ 
+.consulta-card p {
+  margin: 10px 0;
+  color: #444;
+}
+ 
+.consulta-card strong {
+  color: #222;
+}
+ 
+ 
+/* BOTÕES */
+ 
+.botoes-consulta {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+}
+ 
+.botoes-consulta button {
+  padding: 10px 20px;
+ 
+  border: none;
+  border-radius: 8px;
+ 
+  cursor: pointer;
+ 
+  font-size: 14px;
+  font-weight: 600;
+ 
+  transition: 0.2s;
+}
+ 
+.botoes-consulta button:hover {
+  transform: translateY(-1px);
+}
+ 
+ 
+/* BOTÃO REMARCAR */
+ 
+.botoes-consulta button:first-child {
+  background: #6c4ab6;
+  color: white;
+}
+ 
+ 
+/* BOTÃO CANCELAR */
+ 
+.botoes-consulta button:last-child {
+  background: #eee;
+  color: #444;
+}
+ 
+ 
+/* BOTÃO VOLTAR */
+ 
+.botao-voltar {
+  margin-top: 15px;
+ 
+  padding: 11px 22px;
+ 
+  border: none;
+  border-radius: 8px;
+ 
+  background: #ddd;
+  color: #333;
+ 
+  cursor: pointer;
+  font-size: 14px;
+}
+ 
+.botao-voltar:hover {
+  background: #ccc;
+}

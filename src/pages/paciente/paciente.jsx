@@ -1,6 +1,6 @@
 import Menu from "../../components/Menu";
 import { useState } from "react";
-import "./style.css";
+import "./paciente.css";
  
 export default function Paciente() {
   const [nome, setNome] = useState("");

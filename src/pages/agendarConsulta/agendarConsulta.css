@@ -1,0 +1,59 @@
+.agendar-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+ 
+.agendar-container h1 {
+  margin-bottom: 10px;
+}
+ 
+.agendar-container > p {
+  margin-bottom: 30px;
+}
+ 
+.agendar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+}
+ 
+.agendar-form label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+ 
+.agendar-form input,
+.agendar-form select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+ 
+.agendar-form button {
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+ 
+.agendar-form button[type="submit"] {
+  background: #6c4ab6;
+  color: white;
+}
+ 
+.agendar-form .voltar {
+  background: #ddd;
+  color: #333;
+}
+ 
+.mensagem {
+  font-weight: bold;
+  margin-top: 10px;
+}
