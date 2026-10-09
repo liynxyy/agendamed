@@ -1,0 +1,136 @@
+.cadastro-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background: #e3eef1;
+    font-family: Arial, sans-serif;
+}
+
+.cadastro-container {
+    width: 100%;
+    max-width: 500px;
+    background: rgb(129, 183, 186);
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.cadastro-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 100, 200, 0.15);
+}
+
+.cadastro-container h1 {
+    margin: 0 0 8px;
+    text-align: center;
+    color: #0b2224;
+}
+
+.cadastro-container > p {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #374151;
+}
+
+.cadastro-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro-container label {
+    margin-bottom: 7px;
+    margin-top: 15px;
+    color: #0b2224;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cadastro-container input,
+.cadastro-container select {
+    padding: 13px;
+    border: 2px solid transparent;
+    border-radius: 9px;
+    font-size: 14px;
+    outline: none;
+    background: #ffffff;
+    color: #062f39;
+    transition: border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.cadastro-container input:focus,
+.cadastro-container select:focus {
+    border-color: #3d667b;
+    box-shadow: 0 0 5px rgba(61, 102, 123, 0.4);
+}
+
+.cadastro-container form button {
+    margin-top: 25px;
+    padding: 14px;
+    border: none;
+    border-radius: 9px;
+    background: #062f39;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease,
+                transform 0.2s ease;
+}
+
+.cadastro-container form button:hover {
+    background: #3d667b;
+    transform: scale(1.02);
+}
+
+.cadastro-container form button:active {
+    transform: scale(0.98);
+}
+
+.login-link {
+    margin-top: 25px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    padding-top: 20px;
+}
+
+.login-link p {
+    margin: 0 0 8px;
+    color: #0b2224;
+    font-size: 14px;
+}
+
+.login-link button {
+    border: none;
+    background: transparent;
+    color: #062f39;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.3s ease;
+}
+
+.login-link button:hover {
+    color: #3d667b;
+    text-decoration: underline;
+}
+
+.erro {
+    color: #b91c1c;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .cadastro-container {
+        padding: 25px 20px;
+    }
+
+    .cadastro-page {
+        padding: 20px 15px;
+    }
+}

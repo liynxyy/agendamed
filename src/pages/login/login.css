@@ -1,0 +1,98 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e3eef1, rgb(129, 183, 186));
+}
+ 
+.login-box {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.login-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 100, 200, 0.15);
+}
+
+
+.login-box input:focus,
+.login-box select:focus {
+    outline: none;
+    border: 2px solid #3d667b;
+    box-shadow: 0 0 5px rgba(61, 102, 123, 0.4);
+}
+
+
+
+.login-box {
+  background: rgb(129, 183, 186);
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+ 
+.login-box h2 {
+  color: #0b2224;
+  text-align: center;
+}
+ 
+.login-box input,
+.login-box select {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  color:#062f39
+}
+ 
+.login-box button {
+  padding: 10px;
+  background: #062f39;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+ 
+.login-box button:hover {
+  background: #3d667b;
+}
+ 
+.erro {
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+.cadastro-link {
+  margin-top: 20px;
+  text-align: center;
+}
+ 
+.cadastro-link p {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #0b2224;
+}
+ 
+.cadastro-link button {
+  background: none;
+  border: none;
+  color: #3d667b;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+}
+ 
+.cadastro-link button:hover {
+  text-decoration: underline;
+}

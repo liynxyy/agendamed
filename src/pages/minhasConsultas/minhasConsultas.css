@@ -1,0 +1,48 @@
+.minhas-consultas-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+ 
+.minhas-consultas-container h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+ 
+.minhas-consultas-container > p {
+  color: #666;
+  margin-bottom: 35px;
+}
+ 
+.minha-consulta-card {
+  background: white;
+  padding: 25px 30px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-left: 5px solid #6c4ab6;
+}
+ 
+.minha-consulta-card p {
+  margin: 10px 0;
+  color: #444;
+}
+ 
+.minha-consulta-card strong {
+  color: #222;
+}
+ 
+.botao-voltar {
+  margin-top: 15px;
+  padding: 11px 22px;
+  border: none;
+  border-radius: 8px;
+  background: #ddd;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+}
+ 
+.botao-voltar:hover {
+  background: #ccc;
+}
