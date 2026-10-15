@@ -1,4 +1,5 @@
 .container {
+  color: rgb(237, 241, 241);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,8 +13,8 @@
   margin-top: 20px;
 }
  
-.card {
-  background: white;
+.card1 {
+  background: #6393ac;
   padding: 20px;
   width: 200px;
   border-radius: 12px;
@@ -22,6 +23,56 @@
   transition: 0.3s;
 }
  
-.card:hover {
+.card1:hover {
   transform: scale(1.05);
+}
+
+.card2 {
+  background: #6393ac;
+  padding: 20px;
+  width: 200px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+ 
+.card2:hover {
+  transform: scale(1.05);
+}
+
+.card3 {
+  background: #6393ac;
+  padding: 20px;
+  width: 200px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+ 
+.card3:hover {
+  transform: scale(1.05);
+}
+
+.card4 {
+  background: #6393ac;
+  padding: 20px;
+  width: 200px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+ 
+.card4:hover {
+  transform: scale(1.05);
+}
+
+
+.cards .card1 p,
+.cards .card2 p,
+.cards .card3 p,
+.cards .card4 p {
+    color: #ffffff !important;
 }

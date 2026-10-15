@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #e3eef1, rgb(129, 183, 186));
+  background: #edf5f8;
 }
  
 .login-box {
